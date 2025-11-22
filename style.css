@@ -1,0 +1,44 @@
+
+*{ margin:0; padding:0; box-sizing:border-box;text-decoration: none; }
+
+
+body {
+     font-family:'Segoe UI',sans-serif; background:#f8f9fa; color:#06aa45; text-decoration: none;}
+header {
+  position:fixed; top:0; left:0; right:0; height:90px; background:hsl(140, 88%, 40%); text-decoration: none;
+  display:flex; align-items:center; justify-content:space-between; padding:0 60px; text-decoration: none;
+  box-shadow:0 5px 20px rgba(0,0,0,0.2); z-index:1000;
+}
+
+nav a{text-decoration: none;
+
+}
+
+a{text-decoration: none;
+
+}
+.logo { font-size:36px; font-weight:900; color:#4253eb; text-decoration: none; }
+nav { position:absolute; left:50%; transform:translateX(-50%); }
+nav a { color:#ccc; text-decoration:none; margin:0 30px; font-size:18px; font-weight:500; }
+nav a:hover, nav a.active { color:hwb(118 6% 16%); }
+.login { background:hsl(113, 84%, 52%); color:hsl(150, 89%, 32%); padding:12px 35px; border-radius:50px; text-decoration:none; font-weight:600; }
+
+main { margin-top:90px; padding:60px 5%; max-width:1400px; margin:0 auto; text-align:none; }
+h1 { font-size:56px; margin:60px 0 40px; color:hsl(145, 75%, 30%); }
+h2 { font-size:42px; margin:80px 0 40px; color:#24107e; }
+p { font-size:18px; color:#450ab3; line-height:1.7; }
+
+.btn-red { padding:20px 90px; background:#4607da; color:white; border:none; border-radius:50px; font-size:21px; cursor:pointer; }
+.btn-outline { padding:20px 100px; background:transparent; border:3px solid #492af7; color:#4542f7; border-radius:50px; font-size:21px; cursor:pointer; }
+
+.flex { display:flex; justify-content:center; align-items:center; gap:100px; flex-wrap:wrap; margin:120px 0; text-decoration: none; }
+.grid3 { display:flex; justify-content:center; gap:50px; flex-wrap:wrap; margin:120px 0; }
+.circle { width:280px; height:280px; border-radius:50%; overflow:hidden; box-shadow:0 15px 40px rgba(0,0,0,0.2); }
+.contact-circle { width:160px; height:160px; border-radius:50%; overflow:hidden; background:#ddd; }
+
+img { width:100%; height:100%; object-fit:cover; border-radius:18px; box-shadow:0 10px 30px rgba(0,0,0,0.1); }
+
+.filters button { margin:0 15px; padding:14px 40px; background:#fff; border:2px solid #ddd; border-radius:40px; font-size:17px; }
+.filters button.active { background:#5816d4; color:white; border-color:#6523e0; }
+
+footer { background:lch(79.02% 73.85 134.45); color:hsl(147, 40%, 90%); text-align:center; padding:50px; font-size:15px; }
